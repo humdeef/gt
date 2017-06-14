@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <groupId>com.jt.app</groupId>
+    <artifactId>basecore-alipay</artifactId>
+    <version>1.0.0</version>
+    <packaging>jar</packaging>
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>io.spring.platform</groupId>
+        <artifactId>platform-bom</artifactId>
+        <version>Athens-SR1</version>
+        <relativePath />
+    </parent>
+    <properties>
+        <!-- Generic properties -->
+        <java.version>1.8</java.version>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <httpclient.version>3.0.1</httpclient.version>
+        <commons.codec.version>1.6</commons.codec.version>
+
+    </properties>
+<dependencies>
+    <dependency>
+        <groupId>commons-httpclient</groupId>
+        <artifactId>commons-httpclient</artifactId>
+        <version>${httpclient.version}</version>
+    </dependency>
+    <dependency>
+        <groupId>commons-codec</groupId>
+        <artifactId>commons-codec</artifactId>
+        <version>${commons.codec.version}</version>
+    </dependency>
+    <dependency>
+        <groupId>dom4j</groupId>
+        <artifactId>dom4j</artifactId>
+        <version>1.6.1</version>
+    </dependency>
+
+
+</dependencies>
+
+</project>
